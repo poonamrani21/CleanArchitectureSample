@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.cleanarchitecturesample.app-mergeDebugResources-55:/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/res/values-w1240dp/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "251"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "114",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "309"
+                    }
+                },
+                {
+                    "source": "/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/res/values-w1240dp/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "58",
+                        "endOffsets": "70"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        }
+    ]
+}

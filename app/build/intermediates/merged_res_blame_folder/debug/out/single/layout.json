@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.cleanarchitecturesample.app-mergeDebugResources-56:/layout/activity_dashboard.xml",
+        "source": "com.cleanarchitecturesample.app-main-59:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "com.cleanarchitecturesample.app-mergeDebugResources-56:/layout/activity_register.xml",
+        "source": "com.cleanarchitecturesample.app-main-59:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.cleanarchitecturesample.app-mergeDebugResources-56:/layout/item_row_layout.xml",
+        "source": "com.cleanarchitecturesample.app-main-59:/layout/item_row_layout.xml"
+    },
+    {
+        "merged": "com.cleanarchitecturesample.app-mergeDebugResources-56:/layout/activity_login.xml",
+        "source": "com.cleanarchitecturesample.app-main-59:/layout/activity_login.xml"
+    }
+]

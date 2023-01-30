@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="base16dp">16dp</dimen>
+    <dimen name="base8dp">8dp</dimen>
+    <dimen name="base4dp">4dp</dimen>
+    <dimen name="base10dp">10dp</dimen>
+    <dimen name="base12dp">12dp</dimen>
+    <dimen name="base100dp">100dp</dimen>
+    <dimen name="base15dp">15dp</dimen>
+    <dimen name="base2dp">2dp</dimen>
+    <dimen name="base5dp">5dp</dimen>
+    <dimen name="base20dp">20dp</dimen>
+    <dimen name="base0dp">0dp</dimen>
+    <dimen name="base1dp">1dp</dimen>
+    <dimen name="base25dp">25dp</dimen>
+    <dimen name="base30dp">30dp</dimen>
+    <dimen name="base40dp">40dp</dimen>
+    <dimen name="base18dp">18dp</dimen>
+    <dimen name="base200dp">200dp</dimen>
+    <dimen name="base6dp">6dp</dimen>
+    <dimen name="base3dp">3dp</dimen>
+    <dimen name="base80dp">80dp</dimen>
+    <dimen name="base13dp">13dp</dimen>
+    <dimen name="base22dp">22dp</dimen>
+    <dimen name="base50dp">50dp</dimen>
+    <dimen name="base70dp">70dp</dimen>
+    <dimen name="base150dp">150dp</dimen>
+    <dimen name="height_match_constraints">0dp</dimen>
+    <dimen name="width_match_constraints">0dp</dimen>
+    <dimen name="base60dp">60dp</dimen>
+    <dimen name="base35dp">35dp</dimen>
+    <dimen name="bottom_offset_dp">80dp</dimen>
+    <dimen name="size_action_icons">30dp</dimen>
+</resources>

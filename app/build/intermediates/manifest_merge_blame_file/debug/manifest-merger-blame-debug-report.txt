@@ -1,0 +1,146 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cleanarchitecturesample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:5:5-66
+11-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:6:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] /Users/poonamrani/.gradle/caches/transforms-3/8be31cd3a9820df66298364e65654262/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.cleanarchitecturesample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] /Users/poonamrani/.gradle/caches/transforms-3/8be31cd3a9820df66298364e65654262/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] /Users/poonamrani/.gradle/caches/transforms-3/8be31cd3a9820df66298364e65654262/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.cleanarchitecturesample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] /Users/poonamrani/.gradle/caches/transforms-3/8be31cd3a9820df66298364e65654262/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/poonamrani/.gradle/caches/transforms-3/8be31cd3a9820df66298364e65654262/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:8:5-43:19
+21        android:name="com.cleanarchitecturesample.feature_clean_sample.core.application.BaseApplication"
+21-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:9:9-78
+22        android:allowBackup="true"
+22-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:10:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.9.0] /Users/poonamrani/.gradle/caches/transforms-3/8be31cd3a9820df66298364e65654262/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:11:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:12:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:13:9-43
+28        android:label="@string/app_name"
+28-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:14:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:15:9-54
+30        android:supportsRtl="true"
+30-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.CleanArchitectureSample" >
+32-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:17:9-61
+33        <activity
+33-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:19:9-25:20
+34            android:name="com.cleanarchitecturesample.feature_clean_sample.presentation.register.RegisterActivity"
+34-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:20:13-88
+35            android:exported="false" >
+35-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:21:13-37
+36            <meta-data
+36-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:22:13-24:36
+37                android:name="android.app.lib_name"
+37-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:23:17-52
+38                android:value="" />
+38-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:24:17-33
+39        </activity>
+40        <activity
+40-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:26:9-32:20
+41            android:name="com.cleanarchitecturesample.feature_clean_sample.presentation.dashboard.DashboardActivity"
+41-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:27:13-90
+42            android:exported="false" >
+42-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:28:13-37
+43            <meta-data
+43-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:22:13-24:36
+44                android:name="android.app.lib_name"
+44-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:23:17-52
+45                android:value="" />
+45-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:24:17-33
+46        </activity>
+47        <activity
+47-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:33:9-42:20
+48            android:name="com.cleanarchitecturesample.feature_clean_sample.presentation.login.LoginActivity"
+48-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:34:13-82
+49            android:exported="true"
+49-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:35:13-36
+50            android:label="@string/app_name" >
+50-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:36:13-45
+51            <intent-filter>
+51-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:37:13-41:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:38:17-69
+52-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:38:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:40:17-77
+54-->/Users/poonamrani/Documents/poonam_workspace/demo_projects/Clean-Architecture-Sample/app/src/main/AndroidManifest.xml:40:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <uses-library
+58-->[androidx.window:window:1.0.0] /Users/poonamrani/.gradle/caches/transforms-3/da784e2f12743403dc76a90963efbc2b/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+59            android:name="androidx.window.extensions"
+59-->[androidx.window:window:1.0.0] /Users/poonamrani/.gradle/caches/transforms-3/da784e2f12743403dc76a90963efbc2b/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+60            android:required="false" />
+60-->[androidx.window:window:1.0.0] /Users/poonamrani/.gradle/caches/transforms-3/da784e2f12743403dc76a90963efbc2b/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+61        <uses-library
+61-->[androidx.window:window:1.0.0] /Users/poonamrani/.gradle/caches/transforms-3/da784e2f12743403dc76a90963efbc2b/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+62            android:name="androidx.window.sidecar"
+62-->[androidx.window:window:1.0.0] /Users/poonamrani/.gradle/caches/transforms-3/da784e2f12743403dc76a90963efbc2b/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+63            android:required="false" />
+63-->[androidx.window:window:1.0.0] /Users/poonamrani/.gradle/caches/transforms-3/da784e2f12743403dc76a90963efbc2b/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.2.0] /Users/poonamrani/.gradle/caches/transforms-3/71b15eba15541f199e163dd30daa2be9/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.2.0] /Users/poonamrani/.gradle/caches/transforms-3/71b15eba15541f199e163dd30daa2be9/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+67            android:authorities="com.cleanarchitecturesample.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.2.0] /Users/poonamrani/.gradle/caches/transforms-3/71b15eba15541f199e163dd30daa2be9/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/poonamrani/.gradle/caches/transforms-3/71b15eba15541f199e163dd30daa2be9/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/poonamrani/.gradle/caches/transforms-3/71b15eba15541f199e163dd30daa2be9/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/poonamrani/.gradle/caches/transforms-3/71b15eba15541f199e163dd30daa2be9/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/poonamrani/.gradle/caches/transforms-3/71b15eba15541f199e163dd30daa2be9/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/poonamrani/.gradle/caches/transforms-3/4bc0e6b49595c0320c46ccf3af48db90/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/poonamrani/.gradle/caches/transforms-3/4bc0e6b49595c0320c46ccf3af48db90/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/poonamrani/.gradle/caches/transforms-3/4bc0e6b49595c0320c46ccf3af48db90/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+75        </provider>
+76
+77        <service
+77-->[androidx.room:room-runtime:2.4.3] /Users/poonamrani/.gradle/caches/transforms-3/849e534cea16f54c99216664631313da/transformed/room-runtime-2.4.3/AndroidManifest.xml:25:9-28:40
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.4.3] /Users/poonamrani/.gradle/caches/transforms-3/849e534cea16f54c99216664631313da/transformed/room-runtime-2.4.3/AndroidManifest.xml:26:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.4.3] /Users/poonamrani/.gradle/caches/transforms-3/849e534cea16f54c99216664631313da/transformed/room-runtime-2.4.3/AndroidManifest.xml:27:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.4.3] /Users/poonamrani/.gradle/caches/transforms-3/849e534cea16f54c99216664631313da/transformed/room-runtime-2.4.3/AndroidManifest.xml:28:13-37
+81    </application>
+82
+83</manifest>
